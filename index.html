@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Timer</title>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="content">
+			<div class="timer">
+				<div class="timer-title">Таймер обратного отсчета</div>
+				<div class="timer-title2">
+					Введите время события
+				</div>
+				<input type="text" id ="deadline" class="timer-title" placeholder="ГГГГ-ММ-ДД">
+				<button type="submit" id="start" class="more">Запустить таймер</button>
+				<button type="submit" id="stop" class="more2">Сбросить таймер</button>
+				<div class="timer-numbers" id="timer">
+					<span class="days">00</span>
+					<span> дн. </span>
+					<span class="hours">00</span>
+					<span> ч. </span>
+					<span class="minutes">00</span>
+					<span> мин. </span>
+					<span class="seconds">00</span>
+					<span> сек. </span>
+				</div>
+			</div>
+	</div>	
+		<div class="overlay">
+	 		<div class="popup blink">
+				<div class="popup-close">&times;
+				</div>
+				<div class="popup-title">
+				Время истекло!</div>
+					<div class="popup-form">	
+						<form action="#" class="main-form">
+							<div class="popup-form-header">
+								Пора действовать!
+							</div>
+						</form>
+					</div>
+	 		</div>
+		</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
